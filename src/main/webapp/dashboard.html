@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/style1.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Dashboard </title> 
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="images/logo.png" alt="">
+            </div>
+
+            <span class="logo_name">JSW Banking</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a>
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Dahsboard</a></span>
+                </a></li>
+                <li><a href="Deposit.html">
+                    <i class="uil uil-money-withdraw"></i>                    
+                    <span class="link-name">Deposit</span>
+                </a></li>
+                <li><a href="withdraw.html">
+                    <i class="uil uil-money-insert"></i>
+                    <span class="link-name">Widthraw</span>
+                </a></li>
+                <li><a href="balance.html">
+         <i class="uil uil-file-check-alt"></i>    
+                <span class="link-name">Check Balance</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="index.html">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+            
+            <img src="images/profile.png" alt="profile">
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text" >Dashboard</span>
+                </div>
+
+                <div class="boxes">
+                    <div class="box box1">
+                        
+                        <i class="uil uil-money-withdraw"></i>   
+                        <a href="Deposit.html">                 
+                        <span class="text">Deposit Money</span>
+                        </a>
+                        <span> </span>
+                    </div>
+                    <div class="box box2">
+                        <i class="uil uil-money-insert"></i>
+                        <a href="withdraw.html">                 
+                        <span class="text">Widthraw Money</span>
+                        </a>
+                    </div>
+                    <div class="box box3">
+                        <i class="uil uil-file-check-alt"></i> 
+                        <a href="balance.html">                    
+                        <span class="text">Check Balance</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity">
+                <div class="title">
+                    <i class="uil uil-clock-three"></i>
+                    <span class="text">Recent Activity This is Static :)</span>
+                </div>
+
+                <div class="activity-data">
+                    <div class="data names">
+                        <span class="data-title">Name</span>
+                        <span class="data-list">Kavish Sharma</span>
+                        <span class="data-list">Kavish Sharma</span>
+                        <span class="data-list">Kavish Sharma</span>
+                        <span class="data-list">Kavish Sharma</span>
+                        <span class="data-list">Kavish Sharma</span>
+                        <span class="data-list">Kavish Sharma</span>
+                        <span class="data-list">Kavish Sharma</span>
+                    </div>
+                    <div class="data email">
+                        <span class="data-title">Email</span>
+                        <span class="data-list">kavishwork.123@gmail.com</span>
+                        <span class="data-list">kavishwork.123@gmail.com</span>
+                        <span class="data-list">kavishwork.123@gmail.com</span>
+                        <span class="data-list">kavishwork.123@gmail.com</span>
+                        <span class="data-list">kavishwork.123@gmail.com</span>
+                        <span class="data-list">kavishwork.123@gmail.com</span>
+                        <span class="data-list">kavishwork.123@gmail.com</span>
+                    </div>
+                    <div class="data joined">
+                        <span class="data-title">Date</span>
+                        <span class="data-list">2022-07-30</span>
+                        <span class="data-list">2022-07-31</span>
+                        <span class="data-list">2022-07-21</span>
+                        <span class="data-list">2022-07-20</span>
+                        <span class="data-list">2022-07-14</span>
+                        <span class="data-list">2022-07-25</span>
+                        <span class="data-list">2022-07-22</span>
+                    </div>
+                    <div class="data type">
+                        <span class="data-title">Type</span>
+                        <span class="data-list">Widthraw</span>
+                        <span class="data-list">Deposit</span>
+                        <span class="data-list">Deposit</span>
+                        <span class="data-list">Deposit</span>
+                        <span class="data-list">Widthraw</span>
+                        <span class="data-list">Widthraw</span>
+                        <span class="data-list">Widthraw</span>
+                    </div>
+                    <div class="data status">
+                        <span class="data-title">Status</span>
+                        <span style="color:green;"class="data-list">Sucess</span>
+                        <span style="color:green;"class="data-list">Sucess</span>
+                        <span style="color:red;" class="data-list">Failed</span>
+                        <span style="color:green;" class="data-list">Sucess</span>
+                        <span style="color:red;" class="data-list">Failed</span>
+                        <span style="color:green;"class="data-list">Sucess</span>
+                        <span style="color:green;" class="data-list">Sucess</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script1.js"></script>
+</body>
+</html>
